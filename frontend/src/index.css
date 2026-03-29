@@ -1,0 +1,93 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing:border-box;
+}
+html,body, #root{
+  width:100%;
+  height:100%;
+  background-color:#dfe2e7;
+}
+html{
+  font-family:'Times New Roman', Times, serif;
+  
+}
+.create-post-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+  height:50rem;
+  width:100%;
+  background-color:#dfe2e7;
+
+}
+.create-post-section h1{
+  background-color:rgb(155, 133, 133);
+  
+}
+
+.create-post-section form{
+  width:30rem;
+display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:white;
+  padding:30px;
+  border-radius:8px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+.create-post-section input,textarea{
+  width:22rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:15px 0;
+  padding:15px;
+  margin-left:5px;
+  border:2px solid #ccc;
+  border-radius:7px;
+  font-size:1rem;
+}
+.create-post-section button{
+  padding:20px 25px;
+  width:15rem;
+  background-color:#4CAF50;
+  color:white;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  font-size:1.2rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.feed-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:start;
+  gap:20px;
+  height:100%;
+  width:100%;
+  background-color:#f0f2f5;
+  padding:20px;
+}
+.post-card{
+  background-color:white;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.1);
+  width:400px;
+  margin-bottom:20px;
+  
+}
+.post-card img{
+  max-width:100%;
+  border-radius:8px;
+  margin-top:10px;
+}
+.post-card h3{
+  margin-bottom:10px;
+
+}
